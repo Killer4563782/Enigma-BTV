@@ -1,0 +1,71 @@
+/* ═══════════════════════════════
+   SCREENSHOTS TAB
+   ═══════════════════════════════ */
+.ss-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.ss-item {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--card-border);
+  cursor: pointer;
+  transition: all var(--transition-mid);
+  aspect-ratio: 16/9;
+  background: var(--dark-purple);
+}
+
+.ss-item:hover {
+  border-color: var(--card-hover-border);
+  box-shadow: var(--glow-sm);
+  transform: scale(1.02);
+}
+
+.ss-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ss-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(4, 0, 13, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.2s ease;
+}
+
+.ss-lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--card-border);
+}
+
+.ss-lightbox-close {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: rgba(111, 0, 255, 0.2);
+  border: 1px solid var(--card-border);
+  color: var(--text-primary);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-fast);
+}
+
+.ss-lightbox-close:hover {
+  background: rgba(111, 0, 255, 0.4);
+}
+

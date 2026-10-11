@@ -1,0 +1,37 @@
+import type { Dispatch, SetStateAction } from "react";
+import type { AppState, AuthMode, Permission, Task, User, View } from "./types";
+import type { LocalAppearance } from "./appearance";
+export interface WorkspaceContext {
+  state: AppState;
+  setState: Dispatch<SetStateAction<AppState>>;
+  saveProfile: (change: Pick<User, "username" | "name" | "bio" | "status" | "presence" | "color" | "avatar" | "bannerColor" | "bannerImage">) => Promise<void>;
+  localAppearance: LocalAppearance;
+  updateLocalAppearance: (patch: Partial<LocalAppearance>) => void;
+  user: User;
+  view: View;
+  entityId: string;
+  navigate: (view: View, id?: string) => void;
+  leaveWorkspace: (href: '/') => Promise<void>;
+  flushWorkspace: () => Promise<AppState>;
+  redeemAccessKey: (key: string) => Promise<void>;
+  selectedTaskId: string | null;
+  openTask: (id: string) => void;
+  closeTask: () => void;
+  createTask: (patch: Partial<Task> & { title: string }) => string;
+  updateTask: (id: string, patch: Partial<Task> | ((task: Task) => Partial<Task>), activity?: string) => void;
+  toggleTaskWatch: (id: string) => void;
+  canEditTask: (task: Task) => boolean;
+  can: (permission: Permission) => boolean;
+  notify: (message: string, tone?: "success" | "error" | "info") => void;
+  requestNewTask: (listId?: string, parentId?: string) => void;
+  showProfile: (userId: string) => void;
+  authMode: AuthMode | null;
+  setAuthMode: (mode: AuthMode | null) => void;
+  localAccounts: string[];
+  loginEmail: string;
+  rememberAccount: (email: string) => void;
+  removeAccount: (email: string) => void;
+  switchAccount: (email: string) => Promise<void>;
+  signOut: () => Promise<boolean>;
+  resetWorkspace: () => Promise<void>;
+}

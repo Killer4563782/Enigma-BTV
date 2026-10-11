@@ -1,0 +1,34 @@
+/* ═══════════════════════════════
+   TRAILER TAB
+   ═══════════════════════════════ */
+/* ═══════════════════════════════
+   TRAILER TAB
+   ═══════════════════════════════ */
+.trailer-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.trailer-embed {
+  width: 100%;
+  max-width: 900px;
+  aspect-ratio: 16/9;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--card-border);
+  box-shadow: var(--glow-md);
+}
+
+.trailer-embed iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+
+
+/* ─────────────────────────────────────────
+   SCREENSHOT CAROUSEL
+   ───────────────────────────────────────── */

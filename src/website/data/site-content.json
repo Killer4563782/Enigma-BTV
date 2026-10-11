@@ -1,0 +1,360 @@
+{
+  "version": 1,
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "number": "I",
+      "title": "Mischievous Mansion",
+      "subtitle": "Chapter I",
+      "theme": "fragment",
+      "status": "available",
+      "image": "assets/Mansion.png",
+      "color": "#1a6fff",
+      "accentColor": "#55aaff",
+      "description": "Uncover the secrets hidden within an illager fortress, tainted by something dark.",
+      "lore": "Step into the shadows of the Mischievous Mansion. Recently appeared without a trace, its eerie halls hold secrets waiting to be unraveled. Explore its many twisting passages, face challenging enemies, and uncover the mysteries that have been concealed for so long.\n\nWithin the mansion, every room reveals a new puzzle, every flickering candle a clue, every creaking floorboard a warning, and every shadow a potential threat. Work together with your team to overcome the unpredictable dangers lurking around every corner.\n\nRumor has it: the mobs have become more evolved over the years… adapting to those who dare enter.",
+      "trailerId": "",
+      "screenshots": [
+        "assets/Mansion.png"
+      ],
+      "published": true,
+      "cardColor": "#1a6fff",
+      "storyTitle": "Every chapter hides a secret.",
+      "roadmapText": "The passage is open. Your journey awaits."
+    },
+    {
+      "id": "chapter-2",
+      "number": "II",
+      "title": "Baneful Bastion",
+      "subtitle": "Chapter II",
+      "theme": "void",
+      "status": "available",
+      "image": "assets/Bastion.png",
+      "color": "#FF4500",
+      "accentColor": "#ff8c00",
+      "description": "Venture into the depths of the Nether's cindering realm.",
+      "lore": "The Nether was never meant to be conquered. Yet here you stand, at the threshold of something older than the world above.\n\nThe Bastion does not welcome the living. Its walls of blackstone remember every soul that has passed through, and every soul that never left.\n\nPiglin war-horns echo through volcanic corridors. Gold is the only language spoken here—and you are running out of words.",
+      "trailerId": "",
+      "screenshots": [
+        "assets/Bastion.png"
+      ],
+      "published": true,
+      "cardColor": "#FF4500",
+      "storyTitle": "Every chapter hides a secret.",
+      "roadmapText": "The passage is open. Your journey awaits."
+    },
+    {
+      "id": "chapter-3",
+      "number": "III",
+      "title": "Unknown",
+      "subtitle": "Chapter III",
+      "theme": "echo",
+      "status": "coming-soon",
+      "image": "assets/commingsoon.png",
+      "color": "#333355",
+      "accentColor": "#555588",
+      "description": "Coming Soon",
+      "lore": "",
+      "trailerId": "",
+      "screenshots": [],
+      "published": true,
+      "cardColor": "#333355",
+      "storyTitle": "Every chapter hides a secret.",
+      "roadmapText": "An uncharted world. Its signal is yet to emerge."
+    },
+    {
+      "id": "chapter-4",
+      "number": "IV",
+      "title": "Unknown",
+      "subtitle": "Chapter IV",
+      "theme": "echo",
+      "status": "coming-soon",
+      "image": "assets/commingsoon.png",
+      "color": "#333355",
+      "accentColor": "#555588",
+      "description": "Coming Soon",
+      "lore": "",
+      "trailerId": "",
+      "screenshots": [],
+      "published": true,
+      "cardColor": "#333355",
+      "storyTitle": "Every chapter hides a secret.",
+      "roadmapText": "An uncharted world. Its signal is yet to emerge."
+    },
+    {
+      "id": "chapter-5",
+      "number": "V",
+      "title": "Unknown",
+      "subtitle": "Chapter V",
+      "theme": "echo",
+      "status": "coming-soon",
+      "image": "assets/commingsoon.png",
+      "color": "#333355",
+      "accentColor": "#555588",
+      "description": "Coming Soon",
+      "lore": "",
+      "trailerId": "",
+      "screenshots": [],
+      "published": true,
+      "cardColor": "#333355",
+      "storyTitle": "Every chapter hides a secret.",
+      "roadmapText": "An uncharted world. Its signal is yet to emerge."
+    },
+    {
+      "id": "chapter-6",
+      "number": "VI",
+      "title": "Grand Final",
+      "subtitle": "Chapter VI",
+      "theme": "echo",
+      "status": "coming-soon",
+      "image": "assets/commingsoon.png",
+      "color": "#333355",
+      "accentColor": "#555588",
+      "description": "Coming Soon",
+      "lore": "",
+      "trailerId": "",
+      "screenshots": [],
+      "published": false,
+      "cardColor": "#333355",
+      "storyTitle": "Every chapter hides a secret.",
+      "roadmapText": "An uncharted world. Its signal is yet to emerge."
+    }
+  ],
+  "team": [
+    {
+      "name": "Lucreator245",
+      "role": "Creator & Visionary",
+      "description": "The mind behind Enigma. Designed the overall concept, story arc, and gameplay vision for the entire adventure.",
+      "avatar": "assets/Teammembers/luca.gif",
+      "socials": {
+        "discord": "Lucreator245"
+      },
+      "isCore": true,
+      "disciplines": [
+        "direction"
+      ],
+      "id": "member-1",
+      "representation": "planet",
+      "planetColor": "#cc88ff"
+    },
+    {
+      "name": "Jxson",
+      "role": "Lead Developer",
+      "description": "Backend plugin developer. Built the custom mechanics, boss systems, and dungeon logic that powers the experience.",
+      "avatar": "assets/Teammembers/jason.png",
+      "socials": {
+        "discord": "Jxson"
+      },
+      "isCore": true,
+      "disciplines": [
+        "development"
+      ],
+      "id": "member-2",
+      "representation": "planet",
+      "planetColor": "#88aaff"
+    },
+    {
+      "name": "Killer456378",
+      "role": "Web Developer",
+      "description": "Designed and built the website you are exploring right now. Turned the vision into a digital experience.",
+      "avatar": "assets/Teammembers/Killer.png",
+      "socials": {
+        "discord": "Killer456378"
+      },
+      "isCore": true,
+      "disciplines": [
+        "development"
+      ],
+      "id": "member-3",
+      "representation": "planet",
+      "planetColor": "#88ffcc"
+    },
+    {
+      "name": "Xei",
+      "role": "Builder & Storycrafter",
+      "description": "Master builder and artist. Brings atmosphere, passion, and visual storytelling to every structure in the world.",
+      "avatar": "assets/Teammembers/xei.png",
+      "socials": {
+        "discord": "Xei"
+      },
+      "isCore": true,
+      "disciplines": [
+        "worldbuilding"
+      ],
+      "id": "member-4",
+      "representation": "planet",
+      "planetColor": "#ffcc55"
+    },
+    {
+      "name": "TheMSTAAcorn",
+      "role": "Contributor",
+      "description": "",
+      "avatar": "",
+      "socials": {},
+      "isCore": false,
+      "disciplines": [],
+      "id": "member-5",
+      "representation": "star",
+      "planetColor": "#c2abeb"
+    },
+    {
+      "name": "Wolle03",
+      "role": "Contributor",
+      "description": "",
+      "avatar": "",
+      "socials": {},
+      "isCore": false,
+      "disciplines": [],
+      "id": "member-6",
+      "representation": "planet",
+      "planetColor": "#c2abeb"
+    },
+    {
+      "name": "WillHasTea",
+      "role": "Contributor",
+      "description": "",
+      "avatar": "",
+      "socials": {},
+      "isCore": false,
+      "disciplines": [],
+      "id": "member-7",
+      "representation": "star",
+      "planetColor": "#c2abeb"
+    },
+    {
+      "name": "Mr Redpanda",
+      "role": "Contributor",
+      "description": "",
+      "avatar": "",
+      "socials": {},
+      "isCore": false,
+      "disciplines": [],
+      "id": "member-8",
+      "representation": "star",
+      "planetColor": "#c2abeb"
+    },
+    {
+      "id": "member-michi",
+      "name": "Michi",
+      "role": "Contributor",
+      "description": "",
+      "avatar": "",
+      "socials": {},
+      "isCore": false,
+      "disciplines": [],
+      "representation": "star",
+      "planetColor": "#c2abeb"
+    }
+  ],
+  "qa": [
+    {
+      "id": "q1",
+      "category": "General",
+      "question": "What is Enigma: Beyond the Void?",
+      "answer": "Enigma: Beyond the Void is a story-driven Minecraft adventure map told across interconnected chapters, each with a unique theme, custom structures, handcrafted dungeons, and original bosses. No mods or datapacks required — only custom plugins power the experience.",
+      "published": true
+    },
+    {
+      "id": "q2",
+      "category": "General",
+      "question": "How many players can play at once?",
+      "answer": "Up to 10 players can join a session. The chapters are designed to be challenging enough for larger groups while still being completable by smaller teams.",
+      "published": true
+    },
+    {
+      "id": "q3",
+      "category": "Technical",
+      "question": "Do I need any mods or texture packs?",
+      "answer": "No mods are required. Enigma runs entirely on a custom plugin server with vanilla Minecraft. No texture packs, datapacks, or mod loaders needed.",
+      "published": true
+    },
+    {
+      "id": "q4",
+      "category": "Technical",
+      "question": "What Minecraft version does Enigma use?",
+      "answer": "Enigma runs on a specific server version maintained by the team. Check the Discord for the latest version information and server IP when play sessions are open.",
+      "published": true
+    },
+    {
+      "id": "q5",
+      "category": "Gameplay",
+      "question": "How difficult are the chapters?",
+      "answer": "Each chapter scales in difficulty. Chapter I (Mischievous Mansion) is designed as an introduction, while Chapter II (Baneful Bastion) ramps up significantly. Coming chapters will push teams even further.",
+      "published": true
+    },
+    {
+      "id": "q6",
+      "category": "Gameplay",
+      "question": "Can I explore chapters in any order?",
+      "answer": "Chapters are designed to be played in order, as the story and difficulty progression builds upon each previous chapter. The narrative connections between chapters are a core part of the experience.",
+      "published": true
+    },
+    {
+      "id": "q7",
+      "category": "Gameplay",
+      "question": "What happens if my team dies?",
+      "answer": "The chapter has built-in respawn mechanics. Dying is not the end — but repeated failure against bosses may reset certain encounter phases. Coordinate with your team to manage resources and revives.",
+      "published": true
+    },
+    {
+      "id": "q8",
+      "category": "Story",
+      "question": "Is there an overarching story connecting all chapters?",
+      "answer": "Yes. Each chapter reveals new fragments of a larger mystery centered around a force called The Void. Lore entries, boss dialogues, and hidden secrets all weave into a single continuous narrative.",
+      "published": true
+    },
+    {
+      "id": "q9",
+      "category": "Story",
+      "question": "Where can I find more lore?",
+      "answer": "Explore the chapters to uncover the story through hidden discoveries, encounters, and the world itself. Each chapter overview introduces the journey ahead.",
+      "published": true
+    },
+    {
+      "id": "q10",
+      "category": "Community",
+      "question": "How do I join the server or get updates?",
+      "answer": "Join the official Discord server to get notified about play sessions, server access, chapter releases, and community events. The team posts all announcements there first.",
+      "published": true
+    }
+  ],
+  "announcements": [
+    {
+      "id": "void-signal",
+      "epicTag": "Void Signal Detected",
+      "title": "It’s Quiet… Almost a Little Too Quiet.",
+      "date": "2025-04-01",
+      "content": "Something stirs beyond the Void. Keep your eyes open, adventurer.\nThe next fragment draws near — and when it arrives, nothing will be as it was.\n\nPrepare yourself. The Void does not wait.",
+      "published": true
+    }
+  ],
+  "copy": {
+    "heroTag": "Minecraft Adventure Map",
+    "heroDescription": "Countless secrets. One void that hungers for answers.\nA story-driven Minecraft adventure for up to 10 players.",
+    "exploreLabel": "Explore Chapters",
+    "maxPlayers": "10",
+    "scrollLabel": "Discover what lies below",
+    "announcementsTitle": "Announcements",
+    "announcementsSubtitle": "Void Transmissions & Updates",
+    "chaptersSubtitle": "Each passage reveals another fragment. Walk the path into the unknown.",
+    "roadmapTitle": "Seals of Passage",
+    "roadmapDescription": "Trace the journey. Discover the worlds that await.",
+    "roadmapEnd": "The next signal is still taking shape.",
+    "qaTitle": "Questions & Answers",
+    "qaSubtitle": "Knowledge for the journey ahead.",
+    "qaIntro": "Before you cross the threshold",
+    "qaDescription": "Discover the world, prepare your party, and find your way through the unknown.",
+    "qaContact": "Still searching for an answer?",
+    "discordLabel": "Ask on Discord",
+    "discordUrl": "https://discord.gg/hdUDmkM5Xs",
+    "teamEyebrow": "The people behind the void",
+    "teamTitle": "Our shared universe.",
+    "teamDescription": "Every mind, a world. Every contribution, a star.",
+    "teamSignoff": "A shared passion. An extraordinary world.",
+    "chapterStoryLabel": "The story so far",
+    "chapterStoryEmpty": "This chapter’s story is still waiting to be revealed.",
+    "chapterMeta": "Story-driven adventure · Up to 10 players · Vanilla+",
+    "trailerEmpty": "Trailer Coming Soon",
+    "galleryEmpty": "No screenshots yet"
+  }
+}
